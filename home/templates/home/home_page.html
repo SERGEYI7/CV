@@ -1,7 +1,24 @@
-<div>
-    <p>
-        ЕЕЕЕЕ Робиииииит!!!!!!!!!
-    </p>
-    {% load static %}
-    <img src="{% static 'home/7.gif' %}" >
-</div>
+<!DOCTYPE html>
+<html>
+    <head>
+        {% load static %}
+        <link href='https://fonts.google.com/specimen/Abyssinica+SIL#styles' rel='stylesheet' type='text/css'>
+        <link href="{% static 'home/styles/style.css' %}" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div>
+            <h1 id="title">
+                Title
+            </h1>
+            <img src="{% static 'home/7.gif' %}" >
+        </div>
+        <form method="POST">
+            {% csrf_token %}
+            <table>
+                {{ form }}
+            </table>
+            <input type="submit" value="Send" >
+        </form>
+    </body>
+</html>
