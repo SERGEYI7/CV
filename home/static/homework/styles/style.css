@@ -1,0 +1,29 @@
+.hsst{
+    text-decoration: none
+}
+
+.hsst:hover{
+    text-decoration: underline
+}
+
+body {
+    /*width: 70%;*/
+    margin: auto;
+    width: 70%;
+    text-align: middle;
+}
+
+.houston {
+    float: right;
+}
+
+h1 {
+    font-family: sans-serif;
+    margin-top: 1.5em;
+    font-size: 32px;
+}
+
+tr, td, th, table {
+    border: 1px solid black;
+}
+
