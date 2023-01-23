@@ -18,8 +18,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 STATIC_URL = "static/"
 
-# MEDIA_ROOT = f'{BASE_DIR}/media'
-# MEDIA_URL = '/media'
+#MEDIA_ROOT = f'{BASE_DIR}/media'
+#MEDIA_URL = '/media'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
@@ -32,7 +32,7 @@ SECRET_KEY = KEY
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition

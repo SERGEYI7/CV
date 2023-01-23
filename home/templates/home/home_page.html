@@ -4,6 +4,7 @@
         {% load static %}
         <link href='https://fonts.google.com/specimen/Abyssinica+SIL#styles' rel='stylesheet' type='text/css'>
         <link href="{% static 'home/styles/style.css' %}" rel="stylesheet" type="text/css">
+        <title>Home page</title>
     </head>
 
     <body>
@@ -20,5 +21,34 @@
             </table>
             <input type="submit" value="Send" >
         </form>
+
+        <table>
+            <caption>Это caption</caption>
+            <thead>
+                <tr>
+                    <th> Имя </th>
+                    <th> Возвраст </th>
+                    <th> Пол </th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td> Amelia </td>
+                    <td> Rozova </td>
+                    <td> Woman </td>
+                </tr>
+            </tfoot>
+            <tr>
+                <td> Bob </td>
+                <td> Lindeman </td>
+                <td> Man </td>
+            </tr>
+            <tr>
+                <td> Maria </td>
+                <td> Lindeman </td>
+                <td> Woman </td>
+            </tr>
+        </table>
+
     </body>
 </html>

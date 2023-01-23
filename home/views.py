@@ -20,3 +20,14 @@ class Home(View):
             f"<p>Тебе {age} лет?</p>"
             f"<p>Флаг имеет значене = {flag}</p>"
         )
+
+class HomeWork(View):
+
+    def get(self, request):
+        return render(request, "homework/homework_page.html")
+
+class HomeWork2(View):
+
+    def get(self, request):
+        return render(request, "homework2/index.html")
+        
