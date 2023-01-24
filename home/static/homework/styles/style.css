@@ -10,17 +10,38 @@ body {
     /*width: 70%;*/
     margin: auto;
     width: 70%;
-    text-align: middle;
+    /*text-align: middle;*/
 }
 
-.houston {
+.parent-image {
     float: right;
+    background: cyan;
+    width:50%
 }
+
+.child-image {
+    margin: 0px 0 0 10%;
+    color: red;
+}
+
+/*img {
+    margin_right: auto;
+    align_items: right;
+}*/
 
 h1 {
     font-family: sans-serif;
     margin-top: 1.5em;
+    margin-bottom: 10;
     font-size: 32px;
+}
+
+.table1 {
+    margin-bottom: 0%;
+}
+
+#hystory {
+    margin-top: 0%
 }
 
 tr, td, th, table {
