@@ -15,13 +15,17 @@ body {
 
 .parent-image {
     float: right;
-    background: cyan;
-    width:50%
+    clear: both;
+    left: auto;
+    vertical-align: right;
 }
 
 .child-image {
     margin: 0px 0 0 10%;
-    color: red;
+}
+
+.image-text {
+    font-style:italic;
 }
 
 /*img {
@@ -47,4 +51,9 @@ h1 {
 tr, td, th, table {
     border: 1px solid black;
 }
+
+/*.bottom_div {
+    position: absolute;
+    bottom: 60%;
+}*/
 
