@@ -31,3 +31,7 @@ class HomeWork2(View):
     def get(self, request):
         return render(request, "homework2/index.html")
         
+class HomeWork3(View):
+
+    def get(self, request):
+        return render(request, "homework3/homework3.html")
