@@ -1,2 +1,4 @@
 /settings
 __pycache__
+/.idea
+probe.py
