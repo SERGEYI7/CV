@@ -2,6 +2,47 @@ body {
     margin: 0px
 }
 
+.content {
+    width: 1219px;
+    margin: 0 auto
+
+}
+
+.background-image {
+    background-image: url('../image.png');
+    background-size: cover;
+    height: 403px;
+    bottom: -100px;
+    text-align: center;
+    font-size: 72px;
+    font-family: sans-serif;
+}
+
+.blue_background_image {
+    position: relative;
+    background-image: url('../image2.png');
+    background-size: cover;
+    height: 483px;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    margin-top: 80px;
+}
+
+.text_blue_background {
+    color: white;
+    padding: 10% 20%;
+    margin: 0px;
+}
+
+.PiperNet-Is-Here {
+    position: relative;
+    color: white;
+    top: 50%;
+    z-index: 2;
+}
+
 .header {
     position: fixed;
     font-family: sans-serif;
@@ -12,19 +53,7 @@ body {
     padding: 0px 0%;
     /* margin: 0px; */
     background-color: #007765 ;
-    border: solid red;
-}
-
-.background-image {
-    background-image: url('../image.png');
-    position: static;
-    min-height: 1000px;
-    height: 1000px;
-    background-size: cover;
-    bottom: -100px;
-    text-align: center;
-    font-size: 72px;
-    font-family: sans-serif;
+    z-index: 99;
 }
 
 .logo {
@@ -34,10 +63,19 @@ body {
     top: 16px
 }
 
+.href_text {
+    color: white;
+    text-decoration: none;
+}
+
+.href_text:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 .text {
     margin: 0px 10px;
     display: inline;
-    color: white;
     border-right: 4px solid white;
     padding: 0px 5px;
 }
@@ -45,7 +83,6 @@ body {
 .the_team {
     margin: 0px 10px;
     display: inline;
-    color: white;
     padding: 0px 5px;
     padding-right: 15px;
 }
@@ -57,13 +94,6 @@ body {
 }
 
 
-.PiperNet-Is-Here {
-    position: relative;
-    display: inline;
-    color: white;
-    bottom: -500px;
-}
-
 .clipping {
     padding: 10px 55px;
 }
@@ -72,31 +102,22 @@ body {
     text-align: center;
     font-size: 64px;
     color: #007765;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
 }
 
 .content_clip {
-    display: inline;
     font-size: 32px;
     font-family: sans-serif;
 }
 
 .clip_image {
     float:left;
-    margin-right: 30px;
+    margin-right: 60px;
 }
 
 .clip_image_content {
-    /* float: right; */
-}
-
-.clip_foot {
-    font-size: 32px;
-    font-family: sans-serif;
-}
-
-.team {
-    background-color: #EEEEEE;
+    /* display: inline-block; */
 }
 
 .the_team_team {
@@ -107,23 +128,52 @@ body {
     text-align: center;
 }
 
-.richard {
+.employee_team {
+    margin: auto;
+}
+
+.employee {
     display: inline-block;
-    position: relative;
-    right: -10px;
-    margin: 40px 100px;
+    /* right: -10px; */
+    /* margin: 40px 220px; */
+    margin: 40px 8.9%;
     padding: 0px 0px;
     /* text-align: center; */
 
 }
 
-.richard1 {
-    display: inline;
+.employee_full_name {
+    /* display: inline; */
     text-align: center;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color:#007765;
 }
 
-.richard2 {
+.employee_position {
     display: inline;
     text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
 }
 
+footer {
+    background-color: #333333;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+    
+}
+
+.text-footer {
+    display: inline-block;
+    width: 530px;
+    margin: 40px 0px
+}
+
+.space {
+    margin: 10px
+}

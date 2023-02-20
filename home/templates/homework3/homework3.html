@@ -9,62 +9,140 @@
 <body>
     <div class="header">
         <div class="logo">
-            <img class="image" src="{% static 'homework3/logo.svg' %}">
+            <a href="#href_image_logo"><img class="image" src="{% static 'homework3/logo.svg' %}"></a>
             <div class="text">
-                The problem
+                <a class="href_text" href="#the_problem">The problem</a>
             </div>
-            <!-- <div class="bord">
-                |
-            </div> -->
+
             <div class="text">
-                PiedPiperCoin
+                <a class="href_text" href="#PiedPiperCoin">PiedPiperCoin</a>
             </div>
-            <!-- <div class="bord">
-                |
-            </div> -->
+
             <div class="the_team">
-                the team
+                <a class="href_text" href="#href_team">the team</a>
             </div>
         </div>
     </div>
 
-    <div class="background-image">
-        <div class="PiperNet-Is-Here">
-            PiperNet Is Here
+    <div class="background-image" id="href_image_logo">
+        <section class="PiperNet-Is-Here">PiperNet Is Here</section>
+    </div>
+
+    <div class="space" id="the_problem"></div>
+
+    <div class="clipping">
+        <div class="tittle_clip">
+            <P>The Problem</P>
+        </div>  
+
+        <div class="clip_image_content">
+            <p class="content_clip content">
+                Beneath the flashy homepages of your favorite sites lurk Hooli™ and other evil corporations out to hoard and sell your most personal data.<br>
+
+                <br>What was built to be the ultimate platform for the free sharing of knowledge has turned into a money-hungry monster feasting on our privacy and freedom.<br>
+
+                <br>But fear not, for Pied Piper has the answer! And it’s simple:
+                An autonomous peer-to-peer network featuring distributed storage powered by universal compression, accelerated scheduling allocation, and end-to-end encryption.<br>
+
+                <br>Put even simpler — <strong>it’s the internet, completely decentralized.</strong>
+            </p>
         </div>
-        <!-- <img src="{% static 'homework3/image.png' %}"> -->
 
     </div>
+
+    <div class="blue_background_image">
+        <section class="text_blue_background content">
+            We’re in this together! All of our computers and 
+            phones join in a network to make the strongest 
+            supercomputer the world has ever seen.
+        </section>
+    </div>
+
+    <div class="space"  id="PiedPiperCoin"></div>
 
     <div class="clipping">
         <p class="tittle_clip">Introducing PiedPiperCoin</p>
-        <div class="clip_image_content">
-            <img class="clip_image" src="{% static 'homework3/PPC Logo.png' %}">
-            <p class="content_clip">Pied Piper's new internet is built for users, by users.
+        <div class="clip_image_content content">
+            <div>
+                <img class="clip_image" src="{% static 'homework3/PPC Logo.png' %}">
+            </div>
+            <p class="content_clip content">Pied Piper's new internet is built for users, by users.<br>
                 You supply the storage, compute, and networking resources that power our entire decentralized web.</p>
         </div>
-        <p class="clip_foot">
-            Now there's a way to give credit where credit is due. Compute credit, that is!
-            The more you share your device resources, the more PiedPiperCoin you receive.<br>
+        <div class="clip_image_content">
+            <p class="content_clip content"><br>Now there's a way to give credit where credit is due. Compute credit, that is!
+                     The more you share your device resources, the more PiedPiperCoin you receive.<br>
 
-            <br>Whether you're a developer with an app ready for market, or just an Average Joe
-             with a smartphone you'll love all you can do with PiedPiperCoin.
-        </p>
+                     <br>Whether you're a developer with an app ready for market, or just an Average Joe
+                     with a smartphone you'll love all you can do with PiedPiperCoin.
+            </p>
+        </div>
     </div>
 
-    <div class="team">
+    <div class="space"  id="href_team"></div>
+
+    <div class="clipping content">
         <p class="the_team_team">The Team</p>
-        <div class="richard">
-            <div>
-                <img class="img_richard" src="{% static 'homework3/image (1).png' %}">
-                <div class="richard1">
-                    <p>richard</p>
+        <div class="employee_team">
+            <div class="employee">
+                <img class="img_employee" src="{% static 'homework3/image (1).png' %}">
+                <div class="employee_full_name">
+                    <p>Richard Hendricks</p>
                 </div>
-                <div class="richard2"><p>ричард</p></div>
+                <div class="employee_position"><p>Founder & CEO</p></div>
+            </div>
+
+            <div class="employee">
+                <img class="img_employee" src="{% static 'homework3/image (2).png' %}">
+                <div class="employee_full_name">
+                    <p>Dinesh Chugtai</p>
+                </div>
+                <div class="employee_position"><p>Senior Programmer</p></div>
+            </div>
+
+            <div class="employee">
+                <img class="img_employee" src="{% static 'homework3/image (3).png' %}">
+                <div class="employee_full_name">
+                    <p>Bertram Gilfoyle</p>
+                </div>
+                <div class="employee_position"><p>Chief Systems Architect</p></div>
+            </div>
+
+            <div class="employee">
+                <img class="img_employee" src="{% static 'homework3/image (4).png' %}">
+                <div class="employee_full_name">
+                    <p>Jared Dunn</p>
+                </div>
+                <div class="employee_position"><p>Chief Operating Officer</p></div>
+            </div>
+
+            <div class="employee">
+                <img class="img_employee" src="{% static 'homework3/image (5).png' %}">
+                <div class="employee_full_name">
+                    <p>Monica Hall</p>
+                </div>
+                <div class="employee_position"><p>Chief Financial Officer</p></div>
+            </div>
+
+            <div class="employee">
+                <img class="img_employee" src="{% static 'homework3/image (6).png' %}">
+                <div class="employee_full_name">
+                    <p>Nelson Bighetti</p>
+                </div>
+                <div class="employee_position"><p>Majority Investor</p></div>
             </div>
         </div>
-
     </div>
 
 </body>
+
+<footer>
+    <p class="text-footer">
+        <!-- <div> -->
+            All other trademarks and copyrights are the property of their respective 
+            owners. Use of these names, trademarks and brands does not imply endorsement.
+        <!-- </div> -->
+        </p>
+</footer>
+
 </html>
